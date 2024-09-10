@@ -1,0 +1,23 @@
+.movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  
+  .movie-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    width: 200px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .movie-card h2 {
+    margin: 0 0 8px;
+    font-size: 1.25em;
+  }
+  
+  .movie-card p {
+    margin: 4px 0;
+  }
+  
