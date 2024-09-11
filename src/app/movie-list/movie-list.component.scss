@@ -23,7 +23,7 @@
     margin: 4px 0;
   }
   
-  .movie-card:hover {
+  .movie-card:hover, .movie-card::selection {
      background-color: white;
      cursor: pointer;
      color: black;
