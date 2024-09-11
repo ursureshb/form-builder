@@ -1,0 +1,13 @@
+<form [formGroup]="itemForm" (ngSubmit)="addItem()">
+    <label for="name">Movie Title:</label>
+    <input id="name" formControlName="name" /><br>
+    <label for="releaseDate">Release date:</label>
+    <input id="releaseDate" formControlName="releaseDate" /><br>
+    <label for="rating">Item Name:</label>
+    <input id="rating" formControlName="rating" type="number"/>
+    <button type="submit">Add Item</button>
+  </form>
+  
+  <!-- Example delete button, replace '1' with the actual item ID -->
+  <button (click)="deleteItem(1)">Delete Item</button>
+  
