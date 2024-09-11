@@ -20,7 +20,8 @@ export class MovieListComponent {
     { title: 'Inception', releaseDate: '2010-07-16', rating: 8.8 },
     { title: 'Interstellar', releaseDate: '2014-11-07', rating: 8.6 },
     { title: 'The Dark Knight', releaseDate: '2008-07-18', rating: 9.0 },
-    { title: 'The Matrix', releaseDate: '1999-03-31', rating: 8.7 }
+    { title: 'The Matrix', releaseDate: '1999-03-31', rating: 8.7 },
+    { title: 'Kalki', releaseDate: '2024-06-10', rating: 7.8 }
   ];
 
 }
